@@ -74,7 +74,7 @@ function setData() {
         var result = data.HeWeather6[0];
 
         // city: "苏州",
-        $("#city").text(result.basic.city);
+        $("#city").text(result.basic.location);
 
         // 天气动画
         var code = result.now.cond_code;
